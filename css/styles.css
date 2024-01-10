@@ -344,7 +344,7 @@ a {
 
 /* Plans */
 .plan {
-  transform: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 .plan__name {
@@ -471,7 +471,7 @@ a {
   bottom: 10px;
 }
 
-@media screen and (mi-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .quote {
     font-size: 2rem;
   }
@@ -893,4 +893,9 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* Sign-up Callout */
+.callout-signup {
+  transform: translateY(5rem);
 }
