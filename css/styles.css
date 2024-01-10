@@ -342,7 +342,7 @@ a {
   background: #02cdf1;
 }
 
-/* Plans */
+/* Plans */ 
 .plan {
   transition: transform 0.2s ease-out;
 }
@@ -353,7 +353,7 @@ a {
   font-weight: 500;
   font-size: 2.4rem;
 }
-
+  
 .plan__price {
   font-size: 6rem;
 }
